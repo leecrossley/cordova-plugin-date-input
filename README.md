@@ -6,7 +6,7 @@ Cordova plugin to enhance text date inputs with native date selection.
 
 ## Platforms
 
-This is currently a WIP for iOS, but the aim of this plugin is to provide a common interface for iOS, Android and Windows Phone 8.
+There is currently native support for iOS already, the aim of this plugin is to provide enhancements for Android (4.3 and under) and Windows Phone 8.
 
 ## 1 step install
 

@@ -10,6 +10,7 @@
     <js-module src="www/dateinput.js" name="DateInput">
         <clobbers target="dateinput" />
     </js-module>
+    <dependency id="org.apache.cordova.device" url="https://github.com/apache/cordova-plugin-device" />
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="DateInput">
