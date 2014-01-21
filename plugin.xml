@@ -11,13 +11,5 @@
         <clobbers target="dateinput" />
     </js-module>
     <dependency id="org.apache.cordova.device" url="https://github.com/apache/cordova-plugin-device" />
-    <platform name="ios">
-        <config-file target="config.xml" parent="/*">
-            <feature name="DateInput">
-                <param name="ios-package" value="DateInput" />
-            </feature>
-        </config-file>
-        <header-file src="src/ios/DateInput.h" />
-        <source-file src="src/ios/DateInput.m" />
-    </platform>
+    <platform name="ios"></platform>
 </plugin>
