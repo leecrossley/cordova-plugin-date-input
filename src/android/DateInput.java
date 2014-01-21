@@ -1,6 +1,6 @@
 //
 //  DateInput.java
-//  Copyright (c) 2013 Lee Crossley - http://ilee.co.uk
+//  Copyright (c) 2014 Lee Crossley - http://ilee.co.uk
 //
 
 package uk.co.ilee.dateinput;

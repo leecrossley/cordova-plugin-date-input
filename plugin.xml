@@ -12,4 +12,12 @@
     </js-module>
     <dependency id="org.apache.cordova.device" url="https://github.com/apache/cordova-plugin-device" />
     <platform name="ios"></platform>
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="DateInput">
+                <param name="android-package" value="uk.co.ilee.dateinput.DateInput" />
+            </feature>
+        </config-file>
+        <source-file src="src/android/DateInput.java" target-dir="src/uk/co/ilee/dateinput" />
+    </platform>
 </plugin>
