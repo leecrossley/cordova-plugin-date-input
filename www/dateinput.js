@@ -26,7 +26,7 @@ var triggerShow = function (e) {
     e.preventDefault();
     e.stopPropagation();
     DateInput.show({
-        "element": this
+        "element": this,
         "value": this.value
     });
 };
