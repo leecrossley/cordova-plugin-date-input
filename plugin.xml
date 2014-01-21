@@ -3,7 +3,7 @@
     <name>Date Input</name>
     <author>Lee Crossley (http://ilee.co.uk/)</author>
     <description>Cordova plugin to enhance text date inputs with native date selection.</description>
-    <keywords>cordova, date, select, picker, input</keywords>
+    <keywords>cordova, date, select, picker, input, selector, field, form</keywords>
     <engines>
         <engine name="cordova" version=">=3.0.0" />
     </engines>
