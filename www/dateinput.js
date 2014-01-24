@@ -33,8 +33,12 @@ var triggerShow = function (e) {
 
 var hasNativeSupport = function () {
     var platform = device.platform.toLowerCase();
-    return platform === "ios" || 
-        (platform === "android" && parseFloat(device.version) >= 4.4);
+    if (platform === "ios") {
+        return true;
+    }
+    var i = document.createElement("input");
+    i.setAttribute("type", "date");
+    return i.type !== "text";
 };
 
 module.exports = new DateInput();
