@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="dateinput" version="0.0.1">
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-date-input" version="0.0.1">
     <name>Date Input</name>
     <author>Lee Crossley (http://ilee.co.uk/)</author>
     <description>Cordova plugin to enhance text date inputs with native date selection.</description>

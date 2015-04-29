@@ -1,0 +1,41 @@
+{
+  "name": "cordova-plugin-date-input",
+  "version": "0.0.1",
+  "author": "Lee Crossley <leee@hotmail.co.uk> (http://ilee.co.uk/)",
+  "description": "Cordova plugin to enhance text date inputs with native date selection.",
+  "cordova": {
+    "id": "cordova-plugin-date-input",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leecrossley/cordova-plugin-date-input.git"
+  },
+  "keywords": [
+    "cordova",
+    "date",
+    "select",
+    "picker",
+    "input",
+    "selector",
+    "field",
+    "form",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leecrossley/cordova-plugin-date-input/issues"
+  },
+  "homepage": "https://github.com/leecrossley/cordova-plugin-date-input#readme"
+}

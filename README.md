@@ -1,5 +1,3 @@
-# WIP
-
 ## Date Input Plugin for Apache Cordova
 
 Cordova plugin to enhance text date inputs with native date selection.
@@ -42,7 +40,7 @@ You may wish to trigger the native callback programatically. The `show` function
 
 ```js
 var options = {
-    
+
 }; // WIP
 window.dateinput.show(options);
 ```
